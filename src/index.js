@@ -18,5 +18,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // listen port
 const port = app.get('port')
 app.listen(app.get('port'), () => {
-    console.log("Listen on port ${port}");
+    console.log(`Listen on port ${port}`);
+    console.log(`http://localhost:${port}`);
 });
