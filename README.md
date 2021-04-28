@@ -1,2 +1,6 @@
 # anbecodes web
-This is my personal website, in this web I publish some things
+
+···: COMMING SOON :···:
+
+This is my personal web
+In this web I publish som things
