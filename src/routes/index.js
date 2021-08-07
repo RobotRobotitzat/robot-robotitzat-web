@@ -16,4 +16,9 @@ router.get('/setup', (req, res) => {
     res.render('setup.html', { title: 'My setup - anbecodes web'});
 })
 
+// blog route
+router.get('/blog', (req, res) => {
+    res.render('blog.html', { title: 'Blog - anbecodes web'})
+})
+
 module.exports = router;
